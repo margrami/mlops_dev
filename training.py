@@ -16,7 +16,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y,
 reg = LinearRegression(learning_rate = 0.01)
 reg.fit(X_train, y_train)
 prediction = reg.predict(X_test)
-
 # draw the data and the LR all toguether 
 
 y_pred_line = reg.predict(X)
@@ -29,5 +28,5 @@ plt.show()
 
 
 
-if __name__=='__main__':
-    main()
+#if __name__=='__main__':
+#    main()
